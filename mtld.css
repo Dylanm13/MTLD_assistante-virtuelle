@@ -82,3 +82,20 @@ header img {
 .appel ul {
     list-style-type: none;
 }
+
+.appel_button {
+    padding: 10px 30px;
+    font-size: 40px;
+    margin-left: 200px;
+    border: none;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+footer img {
+    width: 220px;
+}
