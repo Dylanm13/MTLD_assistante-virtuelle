@@ -1,0 +1,23 @@
+.appel {
+    height: auto;
+    width: auto;
+    background-color: #C9A7AA;
+    display: flex;
+    padding: 50px 140px;
+    justify-content: flex-end;
+    &_text {
+        margin-right: 100px;
+    }
+    &_button {
+        padding: 10px 30px;
+        font-size: 40px;
+        margin-left: 200px;
+        border: none;
+    }
+    img {
+        width: 400px;
+    }
+    ul {
+    list-style-type: none;
+    }
+}

@@ -1,0 +1,18 @@
+.definition {
+  display: flex;
+  padding: 50px 140px;
+}
+.definition_text {
+  margin-left: 100px;
+}
+.definition_text p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.definition .definition img {
+  width: 520px;
+  height: 520px;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=definition.css.map */

@@ -1,0 +1,14 @@
+.presentation {
+    height: auto;
+    width: auto;
+    background-color: #C9A7AA;
+    display: flex;
+    padding: 50px 140px;
+    justify-content: flex-end;
+    &_text {
+        margin-right: 100px;
+    }
+    img {
+        width: 400px;
+    }
+}

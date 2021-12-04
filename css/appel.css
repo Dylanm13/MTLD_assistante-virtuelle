@@ -1,0 +1,25 @@
+.appel {
+  height: auto;
+  width: auto;
+  background-color: #C9A7AA;
+  display: flex;
+  padding: 50px 140px;
+  justify-content: flex-end;
+}
+.appel_text {
+  margin-right: 100px;
+}
+.appel_button {
+  padding: 10px 30px;
+  font-size: 40px;
+  margin-left: 200px;
+  border: none;
+}
+.appel img {
+  width: 400px;
+}
+.appel ul {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=appel.css.map */

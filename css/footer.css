@@ -1,0 +1,10 @@
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+footer img {
+  width: 220px;
+}
+
+/*# sourceMappingURL=footer.css.map */

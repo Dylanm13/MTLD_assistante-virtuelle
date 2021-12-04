@@ -1,0 +1,19 @@
+{
+  "name": "mtld_assistantevirtuelle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylanm13/MTLD_assistante-virtuelle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylanm13/MTLD_assistante-virtuelle/issues"
+  },
+  "homepage": "https://github.com/Dylanm13/MTLD_assistante-virtuelle#readme"
+}

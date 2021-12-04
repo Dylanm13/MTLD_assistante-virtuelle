@@ -5,25 +5,6 @@ body {
     margin: 0px;
 }
 
-header {
-    text-align: center;
-}
-
-header ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 255px);
-    grid-gap: 40px;
-    background-color: #C9A7AA;
-    justify-content: center;
-    margin: 0px;
-    padding: 15px;
-}
-
-header img {
-    justify-content: center;
-    width: 300px;
-}
 
 .presentation {
     height: auto;

@@ -1,0 +1,16 @@
+.presentation {
+  height: auto;
+  width: auto;
+  background-color: #C9A7AA;
+  display: flex;
+  padding: 50px 140px;
+  justify-content: flex-end;
+}
+.presentation_text {
+  margin-right: 100px;
+}
+.presentation img {
+  width: 400px;
+}
+
+/*# sourceMappingURL=presentation.css.map */
