@@ -1,25 +1,38 @@
 .appel {
   height: auto;
   width: auto;
-  background-color: #C9A7AA;
+  background-color: #BCBAA6;
   display: flex;
   padding: 50px 140px;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .appel_text {
   margin-right: 100px;
 }
+.appel_text h2 {
+  font-family: "Parisienne", sans-serif;
+}
 .appel_button {
   padding: 10px 30px;
   font-size: 40px;
-  margin-left: 200px;
   border: none;
+  font-family: "Parisienne", sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.appel_button:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
 }
 .appel img {
   width: 400px;
+  border-radius: 200px;
+  object-fit: coversf;
 }
 .appel ul {
   list-style-type: none;
+  padding: 0px;
 }
 
 /*# sourceMappingURL=appel.css.map */

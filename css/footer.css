@@ -5,6 +5,12 @@ footer ul {
 }
 footer img {
   width: 220px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+footer img:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
 }
 
 /*# sourceMappingURL=footer.css.map */

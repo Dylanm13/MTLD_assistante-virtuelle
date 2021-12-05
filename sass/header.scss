@@ -5,10 +5,18 @@ header {
         display: grid;
         grid-template-columns: repeat(auto-fill, 255px);
         grid-gap: 40px;
-        background-color: #C9A7AA;
+        background-color: #BCBAA6;
         justify-content: center;
         margin: 0px;
         padding: 15px;
+        li {
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.05);
+                transition: 0.7s;
+            }
+        }
     }
     img {
     justify-content: center;

@@ -1,7 +1,7 @@
 .presentation {
   height: auto;
   width: auto;
-  background-color: #C9A7AA;
+  background-color: #BCBAA6;
   display: flex;
   padding: 50px 140px;
   justify-content: flex-end;
@@ -9,8 +9,13 @@
 .presentation_text {
   margin-right: 100px;
 }
+.presentation_text h1 {
+  font-family: "Parisienne", sans-serif;
+}
 .presentation img {
   width: 400px;
+  border-radius: 200px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=presentation.css.map */
