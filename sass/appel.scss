@@ -5,11 +5,28 @@
     display: flex;
     padding: 50px 140px;
     justify-content: space-between;
+        @media all and (max-width: 1024px) {
+            padding: 5px 10px;
+            flex-direction: column;
+        }
+
     &_text {
         margin-right: 100px;
+        display: flex;
+        align-items: center;
+            @media all and (max-width: 1024px) {
+                margin-right: 0px;
+                flex-direction: column;
+            }
         h2 {
             font-family: 'Parisienne', sans-serif;
         }
+    }
+    &_image {
+        width: 530px;
+            @media all and (max-width: 1024px) {
+                width: 100%;
+            }
     }
     &_button {
         padding: 10px 30px;
@@ -18,16 +35,31 @@
         font-family: 'Parisienne', sans-serif;
         border-radius: 50px;
         cursor: pointer;
-        transition: 0.7s;
+        transition: 0.5s;
+        margin-left: 80px;
+        background-color: #EBE6DD;
+            @media all and (max-width: 1024px) {
+                margin-left: 0px;
+                font-size: 22px;
+                padding: 10px 12px;
+            }
         &:hover {
             transform: scale(1.05);
-            transition: 0.7s;
+            transition: 0.5s;
         }
     }
-    img {
+    .images_mathilde {
         width: 400px;
         border-radius: 200px;
-        object-fit: coversf;
+        object-fit: cover;
+            @media all and (max-width: 1024px) {
+                width: 100%;
+                height: 250px;
+                border-radius: 256px;
+                object-fit: cover;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
     }
     ul {
     list-style-type: none;

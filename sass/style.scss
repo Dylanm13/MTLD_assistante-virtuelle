@@ -5,9 +5,17 @@
 @import "footer.scss";
 
 
+@font-face {
+    font-family: "Brittany-Signature";
+    src: url("/policebrittany/BrittanySignature.ttf") format("truetype");
+}
+
 body {
     font-family: 'Abel', sans-serif;
     font-size: 35px;
     background-color: #EBE6DD;
     margin: 0px;
+    @media all and (max-width: 1024px) {
+        font-size: 15px;
+    }
 }

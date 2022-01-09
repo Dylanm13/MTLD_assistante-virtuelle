@@ -4,5 +4,13 @@
 .service img {
   padding-bottom: 25px;
 }
+@media all and (max-width: 1024px) {
+  .service img {
+    padding-bottom: 2rem;
+    object-fit: cover;
+    padding-top: 2rem;
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=service.css.map */

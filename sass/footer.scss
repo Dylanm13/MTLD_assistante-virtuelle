@@ -3,12 +3,18 @@ footer {
     display: flex;
     list-style-type: none;
     justify-content: center;
+        @media all and (max-width: 1024px) {
+            padding: 0px;
+        }
     }
 
     img {
     width: 220px;
     transition: 0.5s;
     cursor: pointer;
+        @media all and (max-width: 1024px) {
+            width: 100%;
+        }
     &:hover {
         transform: scale(1.05);
         transition: 0.7s;

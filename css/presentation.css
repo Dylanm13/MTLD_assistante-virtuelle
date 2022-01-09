@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "BrittanySignature";
+  src: url("/policebrittany/BrittanySignature.ttf") format("truetype");
+}
 .presentation {
   height: auto;
   width: auto;
@@ -6,16 +10,38 @@
   padding: 50px 140px;
   justify-content: flex-end;
 }
+@media all and (max-width: 1024px) {
+  .presentation {
+    padding: 5px 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+}
 .presentation_text {
   margin-right: 100px;
 }
-.presentation_text h1 {
-  font-family: "Parisienne", sans-serif;
+@media all and (max-width: 1024px) {
+  .presentation_text {
+    margin-right: 0px;
+  }
 }
-.presentation img {
+.presentation_text h1 {
+  font-family: "BrittanySignature", sans-serif;
+}
+.presentation .images_mathilde {
   width: 400px;
   border-radius: 200px;
   object-fit: cover;
+}
+@media all and (max-width: 1024px) {
+  .presentation .images_mathilde {
+    width: 100%;
+    height: 250px;
+    border-radius: 256px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
 }
 
 /*# sourceMappingURL=presentation.css.map */

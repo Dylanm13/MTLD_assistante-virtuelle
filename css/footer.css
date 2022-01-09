@@ -3,10 +3,20 @@ footer ul {
   list-style-type: none;
   justify-content: center;
 }
+@media all and (max-width: 1024px) {
+  footer ul {
+    padding: 0px;
+  }
+}
 footer img {
   width: 220px;
   transition: 0.5s;
   cursor: pointer;
+}
+@media all and (max-width: 1024px) {
+  footer img {
+    width: 100%;
+  }
 }
 footer img:hover {
   transform: scale(1.05);

@@ -2,5 +2,11 @@
     text-align: center;
     img {
         padding-bottom: 25px;
+        @media all and (max-width: 1024px) {
+            padding-bottom: 2rem;
+            object-fit: cover;
+            padding-top: 2rem;
+            width: 100%;
+        }
     }
 }

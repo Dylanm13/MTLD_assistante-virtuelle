@@ -11,6 +11,11 @@ header ul {
   margin: 0px;
   padding: 15px;
 }
+@media all and (max-width: 1024px) {
+  header ul {
+    grid-gap: 10px;
+  }
+}
 header ul li {
   transition: 0.5s;
   cursor: pointer;
@@ -22,8 +27,13 @@ header ul li:hover {
 header img {
   justify-content: center;
   width: 300px;
+  object-fit: cover;
 }
 
+@font-face {
+  font-family: "BrittanySignature";
+  src: url("/policebrittany/BrittanySignature.ttf") format("truetype");
+}
 .presentation {
   height: auto;
   width: auto;
@@ -32,16 +42,38 @@ header img {
   padding: 50px 140px;
   justify-content: flex-end;
 }
+@media all and (max-width: 1024px) {
+  .presentation {
+    padding: 5px 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+}
 .presentation_text {
   margin-right: 100px;
 }
-.presentation_text h1 {
-  font-family: "Parisienne", sans-serif;
+@media all and (max-width: 1024px) {
+  .presentation_text {
+    margin-right: 0px;
+  }
 }
-.presentation img {
+.presentation_text h1 {
+  font-family: "BrittanySignature", sans-serif;
+}
+.presentation .images_mathilde {
   width: 400px;
   border-radius: 200px;
   object-fit: cover;
+}
+@media all and (max-width: 1024px) {
+  .presentation .images_mathilde {
+    width: 100%;
+    height: 250px;
+    border-radius: 256px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
 }
 
 .service {
@@ -49,6 +81,14 @@ header img {
 }
 .service img {
   padding-bottom: 25px;
+}
+@media all and (max-width: 1024px) {
+  .service img {
+    padding-bottom: 2rem;
+    object-fit: cover;
+    padding-top: 2rem;
+    width: 100%;
+  }
 }
 
 .appel {
@@ -59,11 +99,33 @@ header img {
   padding: 50px 140px;
   justify-content: space-between;
 }
+@media all and (max-width: 1024px) {
+  .appel {
+    padding: 5px 10px;
+    flex-direction: column;
+  }
+}
 .appel_text {
   margin-right: 100px;
+  display: flex;
+  align-items: center;
+}
+@media all and (max-width: 1024px) {
+  .appel_text {
+    margin-right: 0px;
+    flex-direction: column;
+  }
 }
 .appel_text h2 {
   font-family: "Parisienne", sans-serif;
+}
+.appel_image {
+  width: 530px;
+}
+@media all and (max-width: 1024px) {
+  .appel_image {
+    width: 100%;
+  }
 }
 .appel_button {
   padding: 10px 30px;
@@ -72,16 +134,35 @@ header img {
   font-family: "Parisienne", sans-serif;
   border-radius: 50px;
   cursor: pointer;
-  transition: 0.7s;
+  transition: 0.5s;
+  margin-left: 80px;
+  background-color: #EBE6DD;
+}
+@media all and (max-width: 1024px) {
+  .appel_button {
+    margin-left: 0px;
+    font-size: 22px;
+    padding: 10px 12px;
+  }
 }
 .appel_button:hover {
   transform: scale(1.05);
-  transition: 0.7s;
+  transition: 0.5s;
 }
-.appel img {
+.appel .images_mathilde {
   width: 400px;
   border-radius: 200px;
-  object-fit: coversf;
+  object-fit: cover;
+}
+@media all and (max-width: 1024px) {
+  .appel .images_mathilde {
+    width: 100%;
+    height: 250px;
+    border-radius: 256px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
 }
 .appel ul {
   list-style-type: none;
@@ -93,21 +174,40 @@ footer ul {
   list-style-type: none;
   justify-content: center;
 }
+@media all and (max-width: 1024px) {
+  footer ul {
+    padding: 0px;
+  }
+}
 footer img {
   width: 220px;
   transition: 0.5s;
   cursor: pointer;
+}
+@media all and (max-width: 1024px) {
+  footer img {
+    width: 100%;
+  }
 }
 footer img:hover {
   transform: scale(1.05);
   transition: 0.7s;
 }
 
+@font-face {
+  font-family: "Brittany-Signature";
+  src: url("/policebrittany/BrittanySignature.ttf") format("truetype");
+}
 body {
   font-family: "Abel", sans-serif;
   font-size: 35px;
   background-color: #EBE6DD;
   margin: 0px;
+}
+@media all and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
